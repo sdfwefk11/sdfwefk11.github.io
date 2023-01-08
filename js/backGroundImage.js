@@ -1,4 +1,4 @@
-const images = ["0.png","1.jpg", "2.png", "3.png", "4.jpg"];
+const images = ["0.png","1.jpg", "2.png", "4.jpg"];
 const color1 = document.querySelector(".style");
 const color2 = document.querySelector("#quote");
 const color3 =  document.querySelector(".A");
