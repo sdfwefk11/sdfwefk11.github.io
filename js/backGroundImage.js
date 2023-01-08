@@ -20,3 +20,4 @@ if(randomJpg === images[3]){
   color3.style.borderBottom = "2px solid black";
   color4.style.borderBottom = "2px solid black";
 }
+
