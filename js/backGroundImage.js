@@ -12,7 +12,7 @@ const imageCreate = document.createElement("img");
 imageCreate.src = `img/${randomJpg}`;
 
 document.body.appendChild(imageCreate);
-if(randomJpg === images[4]){
+if(randomJpg === images[3]){
   color1.style.color = "black";
   color2.style.color = "black";
   color3.style.color = "black";
