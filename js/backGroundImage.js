@@ -1,4 +1,4 @@
-const images = ["0.png","1.jpg", "2.png", "3.png", "4.jpg"];
+const images = ["0.png","1.jpg", "3.png", "4.jpg"];
 const color1 = document.querySelector(".style");
 const color2 = document.querySelector("#quote");
 const color3 =  document.querySelector(".A");
@@ -12,7 +12,7 @@ const imageCreate = document.createElement("img");
 imageCreate.src = `img/${randomJpg}`;
 
 document.body.appendChild(imageCreate);
-if(randomJpg === images[4]){
+if(randomJpg === images[3]){
   color1.style.color = "black";
   color2.style.color = "black";
   color3.style.color = "black";
